@@ -21,7 +21,7 @@ export class BackendlessMockService implements InMemoryDbService {
         id: 3,
         firstName: 'Rock',
         lastName: 'Strongo',
-        position: 'Lead Tester'
+        position: 'Lead Tester',
       },
       {
         id: 4,

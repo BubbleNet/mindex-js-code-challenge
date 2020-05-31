@@ -1,7 +1,7 @@
 import {HttpClient, HttpErrorResponse} from '@angular/common/http';
 import {Injectable} from '@angular/core';
 import {from, Observable, throwError} from 'rxjs';
-import {catchError, flatMap} from 'rxjs/operators';
+import {catchError, flatMap, map, reduce} from 'rxjs/operators';
 
 import {Employee} from './employee';
 
@@ -45,6 +45,7 @@ export class EmployeeService {
   }
 
   private handleError(res: HttpErrorResponse | any): Observable<never> {
+    console.log(res);
     return throwError(res.error || 'Server error');
   }
 }

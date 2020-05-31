@@ -1,3 +1,8 @@
 .page-title {
   text-align: center;
+  background-color: #3F51B5;
+  color: #EFF1F3;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }

@@ -1,0 +1,27 @@
+.no-wrap {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.mat-card-subtitle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mat-card {
+  background-color: #3F51B5;
+  color: #EFF1F3;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.mat-card-subtitle{
+  color: #EFF1F3;
+}
+
+.mat-card-content {
+  padding: 1em;
+  background-color: #EFF1F3;
+  color: black;
+  border-radius: .25rem;
+}

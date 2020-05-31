@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Delete Direct Report</h1>
+<mat-dialog-content class="mat-typography">
+    Permamantly Delete direct report {{data.firstName}} {{data.lastName}}
+</mat-dialog-content>
+<section>
+    <div class="button-row">
+        <button mat-raised-button (click)="cancel()">Cancel </button>
+        <button mat-raised-button color="warn" (click)="submit()">Delete</button>
+    </div>
+</section>
